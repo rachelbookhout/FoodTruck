@@ -23,7 +23,7 @@ ActiveRecord::Schema.define(version: 20160423183037) do
     t.string  "dayofweek", null: false
   end
 
-  create_table "foodtruckLocationDayTime", force: :cascade do |t|
+  create_table "foodtruckLocationDayTimes", force: :cascade do |t|
     t.integer "mealtime_id",  null: false
     t.integer "day_id",       null: false
     t.integer "foodtruck_id", null: false

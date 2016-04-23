@@ -31,7 +31,7 @@ class CreateTables < ActiveRecord::Migration
       t.string :meal, null:false
     end
 
-    create_table :foodtruckLocationDayTime do |t|
+    create_table :foodtruckLocationDayTimes do |t|
       t.integer :mealtime_id, null:false
       t.integer :day_id, null:false
       t.integer :foodtruck_id, null:false
